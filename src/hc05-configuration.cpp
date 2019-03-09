@@ -25,16 +25,15 @@
  * description:
  *      Follow the steps below in order to set the HC-05 module in AT command mode:
  *
- *      Step 1. Disconnect the Arduino from the computer, un-wire the HC-05 module, connect the Arduino to the computer
- *      again, then upload an empty code to the Arduino.
+ *      Step 1. Connect the Arduino (without HC-05 module) to the computer and run empty code.
  *
  *      Step 2. Disconnect the Arduino from the computer, wire the HC-05 module, then while pressing the button on the
  *      ZS-040 break-out board, connect the Arduino to the computer again. Now, The red LED on the ZS-040 break-out
  *      board must be blinking in 0.5Hz (one second on, one second off).
  *
- *      Step 3. Upload this code to the Arduino, open the Arduino serial monitor, set baud rate to 38400 and choose
- *      `both NL & CR` for line ending. Type `AT`, then press enter. You should see `OK`. Now, you can configure your
- *      HC-05 module with AT commands.
+ *      Step 3.Run the sketch. Open the Arduino serial monitor, set baud rate to `38400` and choose `both NL & CR`
+ *      for line ending. Type `AT`, then press enter. You should see `OK`. Now, you can configure your HC-05 module
+ *      with AT commands.
  *
  * configuration:
  *      +-----------------------+----------------------------+
