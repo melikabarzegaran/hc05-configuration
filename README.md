@@ -12,11 +12,10 @@ blinking in 0.5Hz (one second on, one second off).
 ![diagram](diagram/hc05-configuration_bb.jpg)
  
 ## Step 3
-Run the sketch.
+Run the sketch. Open the Arduino serial monitor, set baud rate to `38400` and choose `both NL & CR` for line ending. 
+Type `AT`, then press enter. You should see `OK`. Now, you can configure your HC-05 module with AT commands. :tada:
 
-__Note.__ I've used `Clion` + `PlatformIO` as IDE. But using the official Arduino IDE would be ok as well.
+__Note 1.__ I've used `Clion` + `PlatformIO` as IDE. But using the official Arduino IDE would be ok as well.
 
-Open the Arduino serial monitor, set baud rate to `38400` and choose `both NL & CR` for line ending. Type `AT`, then 
-press enter. You should see `OK`.
-
-Now, you can configure your HC-05 module with AT commands. :tada:
+__Note 2.__ To make the HC-05 module respond to all AT commands, keep the button on the ZS-040 break-out board pressed 
+while entering commands.

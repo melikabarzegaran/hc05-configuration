@@ -35,6 +35,9 @@
  *      for line ending. Type `AT`, then press enter. You should see `OK`. Now, you can configure your HC-05 module
  *      with AT commands.
  *
+ *      Note. To make the HC-05 module respond to all AT commands, keep the button on the ZS-040 break-out board
+ *      pressed while entering commands.
+ *
  * configuration:
  *      +-----------------------+----------------------------+
  *      | Arduino Uno board pin | ZS-040 break-out board pin |
